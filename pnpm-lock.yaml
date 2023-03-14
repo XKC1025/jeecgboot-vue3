@@ -150,6 +150,7 @@ dependencies:
   '@ant-design/colors': registry.npmmirror.com/@ant-design/colors/6.0.0
   '@ant-design/icons-vue': registry.npmmirror.com/@ant-design/icons-vue/6.1.0_vue@3.2.47
   '@iconify/iconify': registry.npmmirror.com/@iconify/iconify/2.2.1
+  '@jeecg/online': registry.npmmirror.com/@jeecg/online/3.4.4-RC
   '@logicflow/core': registry.npmmirror.com/@logicflow/core/1.1.31
   '@logicflow/extension': registry.npmmirror.com/@logicflow/extension/1.1.31
   '@vue/runtime-core': registry.npmmirror.com/@vue/runtime-core/3.2.47
@@ -207,7 +208,6 @@ devDependencies:
   '@commitlint/cli': registry.npmmirror.com/@commitlint/cli/16.3.0
   '@commitlint/config-conventional': registry.npmmirror.com/@commitlint/config-conventional/16.2.4
   '@iconify/json': registry.npmmirror.com/@iconify/json/2.2.30
-  '@jeecg/online': registry.npmmirror.com/@jeecg/online/3.4.4-RC
   '@purge-icons/generated': registry.npmmirror.com/@purge-icons/generated/0.8.1
   '@rys-fe/vite-plugin-theme': registry.npmmirror.com/@rys-fe/vite-plugin-theme/0.8.6_vite@3.2.5
   '@types/codemirror': registry.npmmirror.com/@types/codemirror/5.60.7
@@ -2576,7 +2576,7 @@ packages:
     resolution: {integrity: sha512-EjibCo++GszsWuLn3+kqaxt12Zim7f0XWSiHzypef4aAqBKYDnG30Z5K3j5W1g4g22fjVUkrb1rQ8rSLTlPdBw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jeecg/online/-/online-3.4.4-RC.tgz}
     name: '@jeecg/online'
     version: 3.4.4-RC
-    dev: true
+    dev: false
 
   registry.npmmirror.com/@jest/console/27.5.1:
     resolution: {integrity: sha512-kZ/tNpS3NXn0mlXXXPNuDZnb4c0oZ20r4K5eemM2k30ZC3G0T02nXUvyhf5YdbXWHPEJLc9qGLxEZ216MdL+Zg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jest/console/-/console-27.5.1.tgz}
@@ -4625,7 +4625,7 @@ packages:
     name: axios
     version: 1.3.4
     dependencies:
-      follow-redirects: registry.npmmirror.com/follow-redirects/1.15.2
+      follow-redirects: registry.npmmirror.com/follow-redirects/1.15.2_debug@4.3.4
       form-data: registry.npmmirror.com/form-data/4.0.0
       proxy-from-env: registry.npmmirror.com/proxy-from-env/1.1.0
     transitivePeerDependencies:
